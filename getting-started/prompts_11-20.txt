@@ -1,0 +1,134 @@
+#PROMPT 11
+##Contexto:
+Últimamente he visto que los operadores lógicos (&&, ||, !) aparecen en muchos
+bloques condicionales y funciones, pero aunque entiendo superficialmente su
+significado, todavía me cuesta identificar cuándo conviene usarlos y cómo pueden
+afectar el resultado final de una condición compleja. Me interesa entender cómo
+estos operadores permiten combinar verificaciones y simplificar expresiones que
+podrían ser más largas usando únicamente if o else if.
+##Entrada:
+Explícame cómo funcionan los operadores lógicos en JavaScript y cómo aplicarlos
+correctamente en un caso real.
+##Salida:
+Ofrece una explicación clara y aplicada, mostrando cómo se usan estos operadores
+para evaluar múltiples condiciones y cómo pueden simplificar el código. Incluye un
+ejemplo práctico comentado y una breve explicación de errores comunes.
+
+#PROMPT 12
+##Contexto:
+He notado que en muchos códigos se usa el concepto de “operadores de
+comparación”, sin embargo, aún me confunde cuándo debería usar == o ===, así
+como las diferencias entre comparar valores mayores, menores o iguales. También
+quiero entender cómo estos operadores pueden influir en resultados inesperados si
+no los utilizo bien.
+##Entrada:
+Explícame cómo funcionan los operadores de comparación en JavaScript y por qué
+es importante conocer bien la diferencia entre == y ===.
+##Salida:
+Incluye teoría extendida, diferencias prácticas, un ejemplo con ambos operadores y
+una recomendación de buenas prácticas al trabajar con comparaciones.
+
+#PROMPT 13
+##Contexto:
+Estoy aprendiendo a manejar datos y he visto que las funciones que retornan
+valores son importantes cuando se quiere modularizar y reutilizar código. Pero,
+todavía me cuesta entender la diferencia entre una función que solo ejecuta algo y
+otra que devuelve un resultado que puedo usar en otra parte del programa.
+##Entrada:
+Explícame qué significa que una función retorne un valor y cómo aplicarlo en un
+caso práctico dentro de un programa.
+##Salida:
+Ofrece una explicación detallada, con ejemplo lineal y aplicado, mostrando cómo
+aprovechar un retorno para construir lógica más compleja.
+
+#PROMPT 14
+##Contexto:
+Últimamente he trabajado con funciones que reciben parámetros, pero aún se me
+dificulta entender cómo pasan los valores y qué ocurre cuando un parámetro falta o
+cuando se envían más argumentos de los que la función espera. A veces siento que
+no sé estructurar bien las funciones para que sean flexibles.
+##Entrada:
+Explícame cómo funcionan los parámetros y argumentos dentro de una función en
+JavaScript.
+##Salida:
+Incluye teoría clara, ejemplo práctico y una explicación sobre valores por defecto y
+buenas prácticas al definir funciones.
+
+#PROMPT 15
+##Contexto:
+He visto que muchos desarrolladores hacen énfasis en la importancia del alcance o
+“scope” en JavaScript, especialmente cuando se trabaja con let o const. Sin
+embargo, aún no comprendo bien cómo funciona el scope local, global y de bloque,
+ni cómo puede afectar el comportamiento de mis variables.
+
+##Entrada:
+Explícame qué es el scope en JavaScript y cómo funciona en un caso práctico.
+##Salida:
+Proporciona una explicación extendida y un ejemplo que muestre cómo cambian los
+valores dependiendo del tipo de scope.
+
+#PROMPT 16
+##Contexto:
+Estoy tratando de escribir código más ordenado y he leído que dividir el programa
+en funciones pequeñas mejora la legibilidad y facilita la depuración. Sin embargo,
+aún no sé cómo identificar cuándo conviene separar una parte del código en una
+función independiente.
+##Entrada:
+Explícame cuándo es recomendable crear funciones para modularizar el código en
+un proyecto pequeño o mediano.
+##Salida:
+Incluye teoría aplicada, recomendaciones y ejemplo codificable que ilustre un caso
+real donde modularizar es beneficioso.
+
+#PROMPT 17
+##Contexto:
+He visto que los arrays tienen muchos métodos útiles, pero me gustaría entender
+mejor cómo funcionan métodos que transforman datos, especialmente map, filter y
+reduce, ya que siento que son fundamentales en proyectos reales y aún los uso con
+poca seguridad.
+
+##Entrada:
+Explícame cómo funcionan los métodos map, filter y reduce aplicados a un caso
+práctico.
+##Salida:
+Incluye teoría, ejemplo práctico con cada uno y una comparación clara de cuándo
+conviene usar cada método.
+
+#PROMPT 18
+##Contexto:
+Estoy empezando a trabajar con datos más complejos y noto que muchas veces se
+mezclan arrays con objetos, lo que crea estructuras anidadas. Aunque entiendo
+cada concepto por separado, me cuesta visualizar cómo acceder y manipular datos
+cuando están combinados.
+##Entrada:
+Explícame cómo acceder a datos dentro de arrays de objetos usando un caso
+práctico.
+##Salida:
+Entrega teoría clara, un ejemplo comentado y una explicación de los métodos más
+útiles para manejar estas estructuras.
+
+#PROMPT 19
+##Contexto:
+Estoy practicando ejercicios lógicos y me doy cuenta de que muchas soluciones
+utilizan ciclos dentro de ciclos, lo cual me resulta confuso. A veces no entiendo bien
+cómo fluye la ejecución cuando hay un “loop anidado”.
+
+##Entrada:
+Explícame cómo funcionan los ciclos anidados en JavaScript y cómo aplicarlos en
+un caso real.
+##Salida:
+Incluye explicación detallada, un ejemplo claro y advertencias sobre errores típicos
+al usarlos.
+
+#PROMPT 20
+##Contexto:
+En muchos ejercicios de manipulación de texto veo métodos como toUpperCase,
+toLowerCase, slice, includes, pero aún no tengo una idea organizada de cómo
+funcionan en conjunto para resolver problemas más completos.
+##Entrada:
+Explícame cómo manipular cadenas de texto usando los métodos más comunes de
+JavaScript.
+##Salida:
+Incluye teoría extendida, ejemplos prácticos y una breve guía de cuándo utilizar
+cada método.
+
