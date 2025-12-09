@@ -2,7 +2,7 @@
 description: 'Getting started'
 
 env:
-  GEMINI_API_KEY: AIzaSyC6a2Uyka1t_P6rjswdv4dQYV5q39cQyrg
+  GEMINI_API_KEY: AIzaSyA799z13y40PhVestuUhrcduK7dDjIZSUg
   
 prompts:
   - "./prompts_1-10.txt"
@@ -10,6 +10,6 @@ prompts:
   - "./prompts_21-30.txt"
 
 providers:
-  - google:gemini-2.5-pro
+  - google:gemini-2.5-flash
 
 
