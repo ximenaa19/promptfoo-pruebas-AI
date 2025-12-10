@@ -1,7 +1,7 @@
 #PROMPT 21
 ##Contexto:
 He empezado a enfrentar situaciones donde necesito validar datos que vienen
-desde formularios o inputs del usuario. Sin embargo, aún no tengo claro cuál es el
+desde {{origen_datos}}. Sin embargo, aún no tengo claro cuál es el
 proceso correcto para verificar si un dato está vacío, si contiene el tipo correcto o si
 cumple ciertas reglas antes de usarlo en el programa. A veces termino escribiendo
 validaciones incompletas o desordenadas y me gustaría entender cómo estructurar
@@ -10,6 +10,7 @@ bien estas verificaciones.
 ##Entrada:
 Explícame cómo validar datos de entrada en JavaScript usando un caso práctico
 que incluya diferentes tipos de validaciones.
+
 ##Salida:
 Proporciona una explicación completa con teoría, ejemplo práctico y
 recomendaciones sobre cómo estructurar validaciones de forma clara y segura.
@@ -18,11 +19,13 @@ recomendaciones sobre cómo estructurar validaciones de forma clara y segura.
 ##Contexto:
 Estoy aprendiendo sobre el DOM y me he dado cuenta de que muchas veces
 necesito crear elementos desde JavaScript en vez de solo modificarlos. Esto me
-parece muy útil en interfaces dinámicas, pero todavía no comprendo bien el proceso
-de crear, configurar y agregar un elemento a la página de forma correcta.
+parece muy útil en interfaces relacionadas con {{tipo_interfaz}}, pero todavía no comprendo
+bien el proceso de crear, configurar y agregar un elemento a la página de forma correcta.
+
 ##Entrada:
 Explícame cómo crear y agregar elementos al DOM mediante JavaScript, usando un
 ejemplo práctico.
+
 ##Salida:
 Incluye teoría, explicación paso a paso y un ejemplo claro sobre cómo construir y
 añadir elementos dinámicamente.
@@ -30,13 +33,15 @@ añadir elementos dinámicamente.
 #PROMPT 23
 ##Contexto:
 He visto en varios proyectos el uso de classList para manipular clases dentro de
-elementos HTML, especialmente para modificar estilos o estados visuales. Aunque
-entiendo la idea general, aún no domino todas las posibilidades que ofrece classList
-ni cómo conectar correctamente estos cambios con la lógica de la aplicación.
+elementos HTML, especialmente para modificar estilos o estados visuales de elementos
+como {{elemento_objetivo}}. Aunque entiendo la idea general, aún no domino todas las
+posibilidades que ofrece classList ni cómo conectar correctamente estos cambios con
+la lógica de la aplicación.
 
 ##Entrada:
 Explícame cómo funciona classList y cómo aplicar cambios de estilo a un elemento
 desde JavaScript.
+
 ##Salida:
 Incluye teoría extendida, un ejemplo comentado y consejos prácticos sobre su uso
 correcto.
@@ -46,51 +51,59 @@ correcto.
 Estoy empezando a trabajar con formularios y me estoy familiarizando con eventos
 como submit. Sin embargo, aún tengo dudas sobre cómo evitar que un formulario
 recargue la página, cómo capturar sus datos correctamente y cómo procesarlos
-dentro del mismo script.
+dentro del mismo script, especialmente en formularios relacionados con {{tipo_formulario}}.
+
 ##Entrada:
 Explícame cómo manejar un formulario con JavaScript, capturar sus datos y evitar el
 comportamiento por defecto.
+
 ##Salida:
 Ofrece una explicación clara con ejemplo práctico para ver el flujo completo del
 manejo de formularios.
 
 #PROMPT 25
 ##Contexto:
-He visto que se usa mucho el objeto Math para resolver problemas numéricos, pero
-no tengo muy claro cuáles son los métodos más importantes ni cómo se aplican en
-ejercicios comunes. Me gustaría aprender a usarlo correctamente para manipular
+He visto que se usa mucho el objeto Math para resolver problemas numéricos
+relacionados con {{tipo_problemas}}, pero no tengo muy claro cuáles son los métodos más importantes
+ni cómo se aplican en ejercicios comunes. Me gustaría aprender a usarlo correctamente para manipular
 valores, redondear números o generar valores aleatorios.
 
 ##Entrada:
 Explícame qué es el objeto Math en JavaScript y cómo aplicar sus métodos más
 usados.
+
 ##Salida:
 Incluye teoría, ejemplos concretos y un pequeño caso práctico donde se utilicen
 varios métodos.
+
 
 #PROMPT 26
 ##Contexto:
 Estoy practicando ejercicios que involucran fechas y ya me recomendaron aprender
 a usar el objeto Date. Sin embargo, todavía me cuesta entender cómo crear fechas,
 obtener partes específicas (como día o mes) y manipularlas para resolver un
-problema real, como programar recordatorios o validar rangos de tiempo.
+problema real, como programar {{caso_real_fechas}} o validar rangos de tiempo.
+
 ##Entrada:
 Explícame cómo funciona el objeto Date en JavaScript y cómo manipular fechas en
 un caso práctico.
+
 ##Salida:
 Incluye teoría extendida, ejemplos comentados y una demostración de cómo
 resolver una situación real usando fechas.
+
 
 #PROMPT 27
 ##Contexto:
 Estoy comenzando a trabajar con errores en el código y me di cuenta de que,
 aunque el navegador muestra mensajes en consola, no sé cómo manejar esos
 errores de forma más controlada. Me interesa aprender a usar try, catch y finally
-para evitar que el programa se detenga por completo cuando ocurre algo
-inesperado.
+para evitar que el programa se detenga por completo cuando ocurre algo inesperado,
+especialmente cuando trabajo con {{operacion_sensible}}.
 
 ##Entrada:
 Explícame cómo manejar errores en JavaScript usando try, catch y finally.
+
 ##Salida:
 Proporciona teoría clara, ejemplo práctico y una explicación sobre cuándo conviene
 manejar errores manualmente.
@@ -100,19 +113,25 @@ manejar errores manualmente.
 En algunos ejercicios he visto el concepto de “spread operator” y “rest operator”,
 pero todavía me resulta un poco confuso entender cuándo estoy expandiendo
 valores y cuándo los estoy agrupando. Me gustaría tener una explicación más clara
-y aplicada para poder identificar sus usos correctamente.
+y aplicada para poder identificar sus usos correctamente, especialmente cuando
+trabajo con {{coleccion_datos}}.
+
 ##Entrada:
 Explícame cómo funcionan el spread y el rest operator en JavaScript, usando un
 caso práctico.
+
 ##Salida:
 Incluye teoría extendida, ejemplos con cada operador y una comparación que facilite
 su comprensión.
 
+
 #PROMPT 29
 ##Contexto:
-Estoy practicando destructuración tanto en arrays como en objetos, pero aún me
-cuesta recordar la sintaxis correcta y entender cómo elegir qué valores extraer. Me
-gustaría aprender una forma más clara de visualizar cómo funciona este proceso.
+Estoy practicando destructuración tanto en arrays como en objetos, especialmente
+cuando trabajo con {{entorno_datos}}, pero aún me cuesta recordar la sintaxis correcta y
+entender cómo elegir qué valores extraer. Me gustaría aprender una forma más clara
+de visualizar cómo funciona este proceso.
+
 ##Entrada:
 Explícame qué es la destructuración en JavaScript y cómo aplicarla en arrays y
 objetos.
@@ -121,15 +140,19 @@ objetos.
 Incluye teoría, ejemplos comentados y una explicación útil sobre cuándo facilita la
 legibilidad del código.
 
+
 #PROMPT 30
 ##Contexto:
 He comenzado a ver código donde se encadenan varios métodos o funciones
 seguidas, lo que llaman “method chaining”. Aunque entiendo cada método por
 separado, no comprendo bien cómo funcionan cuando se combinan, ni cómo este
-estilo puede hacer que mi código sea más limpio y expresivo.
+estilo puede hacer que mi código sea más limpio y expresivo, especialmente cuando
+trabajo con {{tipo_estructura}}.
+
 ##Entrada:
 Explícame qué es el method chaining en JavaScript y cómo aplicarlo en un ejemplo
 práctico con arrays u objetos.
+
 ##Salida:
 Incluye teoría extendida, un ejemplo realista y una explicación de por qué este
 patrón mejora la legibilidad y organización del código.

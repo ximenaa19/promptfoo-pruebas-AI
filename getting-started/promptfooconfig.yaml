@@ -12,4 +12,143 @@ prompts:
 providers:
   - google:gemini-2.5-flash
 
+tests:
+  # PROMPT 1
+  - vars:
+      lenguaje_aprendizaje: "JavaScript"
+      nivel_usuario: "principiante"
 
+  # PROMPT 2
+  - vars:
+      habilidad_objetivo: "programación"
+      experiencia_previa: "básica"
+
+  # PROMPT 3
+  - vars:
+      concepto_js: "funciones"
+      dificultad: "media"
+
+  # PROMPT 4
+  - vars:
+      tema_principal: "promesas"
+      problema_común: "manejo de asincronía"
+
+  # PROMPT 5
+  - vars:
+      herramienta: "GitHub"
+      tipo_proyecto: "aplicación pequeña"
+
+  # PROMPT 6
+  - vars:
+      tipo_operacion: "suma"
+      contexto_aplicacion: "cálculos básicos"
+
+  # PROMPT 7
+  - vars:
+      tema: "arrays"
+      tarea: "organizar datos"
+
+  # PROMPT 8
+  - vars:
+      objetivo_logica: "crear condiciones"
+      dificultad: "intermedia"
+
+  # PROMPT 9
+  - vars:
+      concepto: "bucles"
+      tipo_tarea: "procesar listas"
+
+  # PROMPT 10
+  - vars:
+      tema_eventos: "click"
+      elemento_interactivo: "botón"
+
+  # PROMPT 11
+  - vars:
+      tecnologia: "APIs"
+      uso_practico: "consultar datos externos"
+
+  # PROMPT 12
+  - vars:
+      estructura: "objetos"
+      caso_uso: "modelar usuarios"
+
+  # PROMPT 13
+  - vars:
+      tipo_array: "lista de productos"
+      transformacion: "filtrar"
+
+  # PROMPT 14
+  - vars:
+      concepto: "funciones flecha"
+      comparación: "funciones tradicionales"
+
+  # PROMPT 15
+  - vars:
+      tipo_datos: "números y strings"
+      caso_real: "procesar formularios"
+
+  # PROMPT 16
+  - vars:
+      tema: "callbacks"
+      escenario: "peticiones asincrónicas"
+
+  # PROMPT 17
+  - vars:
+      tipo_problema: "errores comunes"
+      lenguaje: "JavaScript"
+
+  # PROMPT 18
+  - vars:
+      concepto: "scope"
+      ejemplos_contexto: "funciones anidadas"
+
+  # PROMPT 19
+  - vars:
+      tema: "hoisting"
+      elementos_afectados: "variables y funciones"
+
+  # PROMPT 20
+  - vars:
+      tecnologia: "localStorage"
+      caso_uso: "guardar configuraciones"
+
+  # PROMPT 21
+  - vars:
+      origen_datos: "formularios web"
+
+  # PROMPT 22
+  - vars:
+      tipo_interfaz: "dashboard interactivo"
+
+  # PROMPT 23
+  - vars:
+      elemento_objetivo: "tarjetas de productos"
+
+  # PROMPT 24
+  - vars:
+      tipo_formulario: "registro de usuarios"
+
+  # PROMPT 25
+  - vars:
+      tipo_problemas: "operaciones matemáticas"
+
+  # PROMPT 26
+  - vars:
+      caso_real_fechas: "programar recordatorios"
+
+  # PROMPT 27
+  - vars:
+      operacion_sensible: "procesamiento de pagos"
+
+  # PROMPT 28
+  - vars:
+      coleccion_datos: "listas de usuarios"
+
+  # PROMPT 29
+  - vars:
+      entorno_datos: "información de estudiantes"
+
+  # PROMPT 30
+  - vars:
+      tipo_estructura: "listas de productos"

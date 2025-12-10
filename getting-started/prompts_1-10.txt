@@ -1,170 +1,209 @@
-#PROMPT 1
+# PROMPT 1
 
-##Instrucción:
+## Instrucción:
 
-Vas a actuar como un docente de programación para estudiantes de 17–24 años,
-con enfoque en JavaScript. Tu tarea es responder mis preguntas explicando los
+Vas a actuar como un docente de programación para estudiantes de {{edadMin}}–{{edadMax}} años,
+con enfoque en {{lenguajeProgramacion}}. Tu tarea es responder mis preguntas explicando los
 conceptos de una manera práctica, clara y con ejemplos aplicados a casos reales.
 
-##Contexto:
+## Contexto:
 
-Soy estudiante de programación y actualmente estoy aprendiendo JavaScript
-Vanilla. En esta etapa he tenido dificultades entendiendo conceptos importantes,
+Soy estudiante de programación y actualmente estoy aprendiendo {{lenguajeProgramacion}} Vanilla.
+En esta etapa he tenido dificultades entendiendo conceptos importantes,
 como variables, funciones, arrays, objetos y todo lo que hace parte de la lógica
 básica. Mi objetivo es comprender los conceptos y saber cómo aplicarlos al
 momento de programar.
 
-##Entrada:
+## Entrada:
 
 Voy a enviarte preguntas directas sobre temas que quiero entender.
 
-##Salida:
+## Salida:
 
 Responderás con una explicación pedagógica + ejemplo realista + interpretación
 línea por línea. Todo debe ser entendible como caso de estudio.
-##Ejemplo:
 
-Entrada del usuario: “¿Cómo funciona una variable en JavaScript?”
+## Ejemplo:
+
+Entrada del usuario: “¿Cómo funciona una variable en {{lenguajeProgramacion}}?”
 Respuesta esperada:
 Explicas qué es una variable → cuándo se usa → tipo de declaración → ejemplo →
 explicación línea a línea.
 
-#PROMPT 2
+---
 
-##Contexto:
+# PROMPT 2
+
+## Contexto:
 
 He notado que, aunque conozco el concepto general de variables, todavía no tengo
 una claridad completa sobre cuándo debería usar var, let o const y eso me genera
 inseguridad al escribir código más complejo. Me gustaría entender su propósito,
-diferencias reales y cómo afectan la ejecución.
+diferencias reales y cómo afectan la ejecución en {{lenguajeProgramacion}}.
 
-##Entrada:
+## Entrada:
 
 Explícame a nivel de caso de estudio cómo funcionan var, let y const, cuándo se
 usan y qué problemas puedo tener si no los uso bien.
 
-##Salida:
+## Salida:
 
 Proporciona una explicación clara, extendida y aplicada, con un ejemplo práctico en
 el que se vea por qué elegir cada tipo de variable influye en el comportamiento del
 código. Incluye buenas prácticas y advertencias comunes.
 
-#PROMPT 3
+---
 
-##Contexto:
-Estoy reforzando mis bases en JavaScript y he visto en muchos códigos que los
+# PROMPT 3
+
+## Contexto:
+
+Estoy reforzando mis bases en {{lenguajeProgramacion}} y he visto en muchos códigos que los
 desarrolladores definen funciones de diferentes maneras (funciones tradicionales,
 funciones flecha, funciones anónimas). Me gustaría comprender en profundidad qué
 diferencia a cada tipo y cómo elegir la más adecuada según el caso.
 
-##Entrada:
+## Entrada:
 
-Explica detalladamente los diferentes tipos de funciones en JavaScript y cómo se
+Explica detalladamente los diferentes tipos de funciones en {{lenguajeProgramacion}} y cómo se
 aplican en un caso práctico.
 
-##Salida:
+## Salida:
 
 Entrega una explicación pedagógica con teoría + aplicación, incluyendo ejemplos de
 uso real y comparaciones claras entre cada tipo de función.
 
-#PROMPT 4
+---
 
-##Contexto:
+# PROMPT 4
+
+## Contexto:
 
 He trabajado ligeramente con condicionales, pero siento que aún no comprendo
 cómo utilizarlos para resolver problemas lógicos más elaborados. A veces me
 confundo acerca de cuándo elegir if, cuándo else if, o cuándo un operador ternario
-resulta útil.
+resulta útil en {{lenguajeProgramacion}}.
 
-##Entrada:
+## Entrada:
 
-Explícame cómo funcionan los condicionales en JavaScript aplicados a un caso
+Explícame cómo funcionan los condicionales en {{lenguajeProgramacion}} aplicados a un caso
 práctico.
 
-##Salida:
+## Salida:
 
 Incluye teoría, ejemplo con código comentado y una recomendación sobre cuándo
 usar cada estructura condicional.
 
-#PROMPT 5
+---
 
-##Contexto:
+# PROMPT 5
+
+## Contexto:
 
 He visto que los ciclos o loops se usan muchísimo en lógica de programación, pero
 todavía no me siento completamente segura con ellos. Me cuesta visualizar cómo
-recorren elementos o cómo usarlos para repetir procesos sin errores.
+recorren elementos o cómo usarlos para repetir procesos sin errores dentro de
+{{lenguajeProgramacion}}.
 
-##Entrada:
+## Entrada:
 
 Explícame cómo funcionan los bucles for, while y for...of aplicados a un caso
 práctico.
 
-##Salida:
+## Salida:
 
 Entrega una explicación extendida con un ejemplo claro y diferencias prácticas entre
 cada tipo de loop.
 
-#PROMPT 6
+---
 
-##Contexto:
+# PROMPT 6
+
+## Contexto:
 
 Estoy intentando mejorar mi capacidad para manipular datos, especialmente listas o
 colecciones, pero me resulta confuso todo lo relacionado con los arrays: sus
-métodos, propiedades y la mejor forma de recorrerlos.
+métodos, propiedades y la mejor forma de recorrerlos en {{lenguajeProgramacion}}.
 
-##Entrada:
+## Entrada:
 
 Explícame qué es un array, cómo funciona y cómo manipularlo usando algunos de
 sus métodos más comunes.
 
-##Salida:
+## Salida:
 
-Incluye explicación + ejemplo realista con método como push, map, filter o find.
+Incluye explicación + ejemplo realista con métodos como push, map, filter o find.
 
-#PROMPT 7
+---
 
-##Contexto:
+# PROMPT 7
 
-Quiero entender cómo funcionan los objetos en JavaScript porque veo que son
+## Contexto:
+
+Quiero entender cómo funcionan los objetos en {{lenguajeProgramacion}} porque veo que son
 fundamentales en casi cualquier proyecto. Sin embargo, aún me confundo entre sus
 propiedades, métodos y la forma correcta de acceder o modificar sus valores.
 
-##Entrada:
+## Entrada:
 
-Explícame qué es un objeto en JavaScript y cómo aplicarlo en un caso práctico.
+Explícame qué es un objeto en {{lenguajeProgramacion}} y cómo aplicarlo en un caso práctico.
 
-##Salida:
+## Salida:
 Proporciona teoría clara + ejemplo basado en un caso de uso cotidiano.
 
-#PROMPT 8
-##Contexto:
+---
+
+# PROMPT 8
+
+## Contexto:
+
 Estoy intentando comprender cómo funciona el DOM para poder manipular
 elementos en una página web, pero me abruma la cantidad de métodos diferentes y
 no sé bien por dónde empezar.
-##Entrada:
-Explícame qué es el DOM y cómo manipular un elemento desde JavaScript.
-##Salida:
+
+## Entrada:
+
+Explícame qué es el DOM y cómo manipular un elemento desde {{lenguajeProgramacion}}.
+
+## Salida:
+
 Incluye teoría extendida + ejemplo en el que se acceda y modifique un elemento real
 del DOM.
 
-#PROMPT 9
-##Contexto:
-Muchas veces veo que los desarrolladores hablan sobre “eventos” en JavaScript. Sé
+---
+
+# PROMPT 9
+
+## Contexto:
+
+Muchas veces veo que los desarrolladores hablan sobre “eventos” en {{lenguajeProgramacion}}. Sé
 que tienen que ver con interacciones del usuario, pero no entiendo bien cómo
 funcionan ni cómo escucharlos correctamente.
-##Entrada:
-Explícame qué son los eventos en JavaScript y cómo agregarlos a un elemento del
+
+## Entrada:
+
+Explícame qué son los eventos en {{lenguajeProgramacion}} y cómo agregarlos a un elemento del
 DOM.
-##Salida:
+
+## Salida:
+
 Incluye teoría + ejemplo práctico de un evento común como un clic.
 
-#PROMPT 10
-##Contexto:
+---
+
+# PROMPT 10
+
+## Contexto:
+
 He visto en código que muchas veces se usa addEventListener, pero no termino de
 comprender cómo funciona internamente ni cuándo conviene usarlo en lugar de
 otros enfoques.
-##Entrada:
-Explícame cómo funciona addEventListener en un caso real.
-##Salida:
+
+## Entrada:
+
+Explícame cómo funciona addEventListener en un caso real usando {{lenguajeProgramacion}}.
+
+## Salida:
+
 Proporciona teoría aplicada + ejemplo explicado paso a paso.
 
